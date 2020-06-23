@@ -13,6 +13,8 @@ export default async ({ response, request }) => {
 
 		users.push({ id: myUUID, ...userData, emailVerified: false });
 
+		await Deno.writeFile(FILE_PATH, encoder.encode(JSON.stringify(users)));
+
 		response.status = 200;
 		response.body = { success: true, users };
 	} catch (error) {
