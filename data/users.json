@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"username": "xyz2020",
+		"email": "xyz2020@gmail.com",
+		"emailVerified": false
+	},
+	{
+		"id": 2,
+		"username": "abc2020",
+		"email": "abc2020@gmail.com",
+		"emailVerified": true
+	},
+	{
+		"id": 3,
+		"username": "jkl2020",
+		"email": "jkl2020@gmail.com",
+		"emailVerified": true
+	}
+]
